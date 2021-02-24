@@ -1,9 +1,12 @@
+/*
+Author : VAIBHAV
+*/
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
 // Connect to the WiFi
-const char* ssid = "HR";                           //!!!!!!!!!!!!!!!!!!!!!
-const char* password = "123123123";                //!!!!!!!!!!!!!!!!!!!!!
+const char* ssid = "";                            //type your ssid!!!!!!!!!!!!!!!!!!!!!
+const char* password = "123123123";                //type your password!!!!!!!!!!!!!!!!!!!!!
 const char* mqtt_server = "broker.hivemq.com";                 //!!!!!!!!!!!!!!!!!!!!!
 
 String str = "";
